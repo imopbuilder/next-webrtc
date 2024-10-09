@@ -33,10 +33,10 @@ export default function Page() {
 	);
 }
 
-function getDefaultLayout() {
-	const layout = cookies().get('react-resizable-panels:layout');
-	if (layout) {
-		return JSON.parse(layout.value);
-	}
-	return [40, 60];
-}
+// function getDefaultLayout() {
+// 	const layout = cookies().get('react-resizable-panels:layout');
+// 	if (layout) {
+// 		return JSON.parse(layout.value);
+// 	}
+// 	return [40, 60];
+// }
