@@ -4,8 +4,8 @@ import { Webrtc } from '@/components/pages/home/client';
 import { cookies } from 'next/headers';
 import { Fragment } from 'react';
 
-export default function Home() {
-	const defaultLayout = getDefaultLayout();
+export default function Page() {
+	// const defaultLayout = getDefaultLayout();
 
 	return (
 		<Fragment>
@@ -14,7 +14,7 @@ export default function Home() {
 				<section>
 					<div className='max-w-maxi mx-auto px-[4%] min-h-hvh'>
 						<h3 className='scroll-m-20 pt-6 md:pt-8 pb-3 mb-5 text-2xl font-semibold tracking-tight border-b'>Media Settings</h3>
-						<Webrtc defaultLayout={defaultLayout} />
+						<Webrtc defaultLayout={[40, 60]} />
 					</div>
 				</section>
 				<section>
